@@ -3,6 +3,18 @@ name = "rs-nic-names"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the name of the nics."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-nic-names"
+homepage = "https://github.com/takanoriyanagitani/rs-nic-names"
+documentation = "https://docs.rs/rs-nic-names/latest"
+keywords = ["network", "nic", "name", "interface", "netdev"]
+categories = ["command-line-utilities"]
+
+exclude = [
+	"nic-names",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
